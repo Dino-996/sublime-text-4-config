@@ -1,0 +1,42 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+    // --- Aspetto ---
+    "theme": "Default Dark.sublime-theme",
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+    // alternativa molto simile a VSCode Dark+
+    // "color_scheme": "Packages/User/Visual Studio Code Dark+.sublime-color-scheme",
+
+    "font_face": "Consolas",           // Font simile a quello di VSCode
+    "font_size": 13,                   // Un po' più grande del default
+    "line_padding_top": 3,
+    "line_padding_bottom": 3,
+    "caret_style": "smooth",
+    "highlight_line": true,            // Evidenzia la riga corrente
+    "draw_white_space": "selection",   // Mostra gli spazi solo quando selezionati
+    "highlight_modified_tabs": true,   // Evidenzia file non salvati
+
+    // --- Navigazione e usabilità ---
+    "gutter": true,                    // Mostra i numeri di riga
+    "always_show_minimap_viewport": true,
+    "scroll_past_end": true,           // Permette di scorrere oltre l’ultima riga
+    "show_encoding": true,
+    "show_line_endings": true,
+
+    // --- Codice ---
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,  // Converte TAB in spazi
+    "detect_indentation": true,
+    "trim_trailing_white_space_on_save": true,
+    "ensure_newline_at_eof_on_save": true,
+
+    // --- Auto-completamento ---
+    "auto_complete": true,
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_with_fields": true,
+    "auto_match_enabled": true,
+
+    // --- Prestazioni ---
+    "gpu_window_buffer": true,
+    "overlay_scroll_bars": "enabled"
+}
